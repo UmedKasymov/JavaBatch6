@@ -6,7 +6,7 @@ public class StringVerifications {
 		// TODO Auto-generated method stub
 
 		String message="Welcome Admin!";
-		// verify that mesage contains username whic is Admin
+		// verify that message contains username which is Admin
 		System.out.println("------------contains FUNC----------------");
 		System.out.println(message.contains("Admin"));
 		boolean flag=message.contains("Welcome");
