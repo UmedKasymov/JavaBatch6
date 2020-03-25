@@ -44,5 +44,59 @@ public class NotesOfMethods {
 	 *  }
 	 *}
 	 *
+	 *
+	 *Variables in Java;
+	 *
+	 *variable syntax
+	 *
+	 *
+	 *datatype variableName=value;
+	 *
+	 *3 Types of Variables in Java:
+	 *
+	 *   local--variables declared inside the class and inside the method, constructor,
+	 *          or block.
+	 *          
+	 *          void nameInside() {
+		
+	String name="John";//local variable cause it lives inside the scope of this body.
+		               //local variable that visible only within method it was declared.
+	}
+	
+	void anotherName() {
+		
+		String name="Jane";
+	}
+	             
+	 *   instance--variables declared inside the Class, but outside of the 
+	 *             method constructor or block.
+	 *             
+	 *             Instance Variable are called instance because they belong to instance
+	 *             rather than to the class.
+	 *             Everytime we create an Object of the class (create and instance of the
+	 *             class)every object will get it is own copy of those instance variables.
+	 *             
+	 *             To access instance variables we need to create an instance of the 
+	 *             class (create an Object)
+	 *             Any changes we make inside each instance will not affect instance
+	 *             variables of another object.
+	 *             
+	 *             String name, size;
+					int age;
+				
+					void displayDog() {
+						System.out.println("Dog name is "+name+"and it "+size+"dog and age is "+age);
+				
+					}
+	 *             
+	 *   static--declare inside the class but outside of any method , constructor, 
+	 *           or block USING STATIC KEYWORD
+	 *           
+	 *           static--also called  class variables 
+	 *           also static shared with other all instances
+	 *
+	 *
+	 *
+	 *
 	 */
 }
