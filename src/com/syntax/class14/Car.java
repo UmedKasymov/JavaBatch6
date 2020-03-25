@@ -24,7 +24,7 @@ public class Car {
 	}
 	void stop() {
 		System.out.println(make+" stops when you press break");
-		System.out.println(make+" stops");
+		System.out.println(" Car stops");
 		
 	}
 	

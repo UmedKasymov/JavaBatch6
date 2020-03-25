@@ -34,7 +34,8 @@ public class Tasks {
         
 	  String[] countries = { "Tajikistan", "USA", "Hungary", "Belgium" };
       for (String country:countries) {
-    	  if(country.contentEquals("USA")) {
+    	  String capital = null;
+		if(country.contentEquals("USA")) {
     		  System.out.println("The capital of "+country+" is Washington");
     	  }else if(country.equals("Tajikistan")) {
     		  System.out.println("The capital of "+country+" is Dushanbe");
@@ -43,8 +44,8 @@ public class Tasks {
        	  }else { 
        		capital="unknown";
 			}
+			String name = null;
 			System.out.println("The capital of "+name+" is "+capital+" ." );
        	  }
    }
  }
-}

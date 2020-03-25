@@ -6,18 +6,18 @@ public class PracticeVariables {
 
 		byte variableOne=-128;
 		//in order to check if size ranges are working 
-		byte variableOne1=-129;
+		byte variableOne1=-12;
 				
 		short variableTwo=3000;
 		//in order to check if size ranges are working 
-		short variableTwo2=328000;
+		short variableTwo2=328;
 		
 		int variableThree=5000;
-		int variableThree3=3100000000;
+		int variableThree3=31000000;
 		
 		long variableFour=10000000000000L;
 		//in order to check if size ranges are working 
-		long variableFour4=100000000000000000;
+		long variableFour4=10000;
 		
 		float variableFive=15.234567f;
 		float variableFive5=15.80f;

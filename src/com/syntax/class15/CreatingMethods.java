@@ -23,9 +23,12 @@ public class CreatingMethods {
 	public static void main(String[] args) {
 		CreatingMethods obj=new CreatingMethods();
 		char grade=obj.getGrade(85);
+		//char g=obj.getGrade(85);//cause variables are in different Methods
+
 		System.out.println(grade);
 		
-		System.out.println(obj.getGrade(65));
+		System.out.println(obj.getGrade(65));//F
+		
 		// if grade is A or B-->good job, otherwise-->study more
 		if(grade=='A' || grade=='B') {
 			System.out.println("Good Job!");
