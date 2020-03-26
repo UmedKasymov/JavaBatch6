@@ -14,20 +14,31 @@ public class StaticKeyword {
 	static void displayGeneralInfo() {//instance method, cause does not have any STATIC keyword
 		System.out.println("We are biuilding "+brand+" with touchscreen "+touchScreen);
 	}
+	//instance members of the class can access ALL STATIC members
 	void displaySpecifications() {
 		System.out.println("We build phone with  "+memory+" GB memory in "+color+" color");
 	}
+	//STATIC METHODS CANNOT ACCESS NON-STATIC MEMBERS OF THE CLASS
+//	static void displaySpecifications1() {
+//		System.out.println("We build phone with "+memory+"GB memory in "+color+" color");
+//	}
+
 	public static void main(String[] args) {
+		//accessing static variables in a static way
 		brand="iPhone";
 		touchScreen=true;//accessing in static way
 		
+		//accessing instance variables through the instance of the class
 		StaticKeyword obj=new StaticKeyword();
 		obj.color="grey";
 		obj.memory=64;//instance variable
+		
 		//accessing static method in a static way
 		displayGeneralInfo();//once you add "static" word before void
-		displaySpecifications();
 		
+		//accessing static method in non static way/through instance
+        obj.displayGeneralInfo();//valid but not preferable
+        obj.displaySpecifications();
 		
 	}
 }

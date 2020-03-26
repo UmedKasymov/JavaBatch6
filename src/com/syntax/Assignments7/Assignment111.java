@@ -16,6 +16,6 @@ public class Assignment111 {
 	public static void main(String[] args) {
 		// 
 		Assignment110 str=new Assignment110();
-		str.
+		str
  }
 }
