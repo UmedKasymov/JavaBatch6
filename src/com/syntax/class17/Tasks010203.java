@@ -16,13 +16,21 @@ public class Tasks010203 {
 		}
 		return reversed;
 	}
+	
+	String getVowels(String str) {
+		str=str.replaceAll("[a-zA-Z&&[^aeiouAEIOU]]","");
+		return str;
+	}
 	public static void main(String[] args) {
 		int[] array= {43, 32, 12, 1,8,22};
 		Tasks010203 obj = new Tasks010203();
 		int sum1 = obj.method1(array);
 		System.out.println(sum1);
+		
 		String str = obj.reverse("Hello world!");
 		System.out.println(str);
+		
+		System.out.println(obj.getVowels("merhaba arkadaslar   "));
 	}
  }
 

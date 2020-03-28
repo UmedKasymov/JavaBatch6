@@ -15,4 +15,20 @@ public class Assignment112 {
 		false
 	 * 
 	 */
+	 boolean compareEvenOdd(int x, int y) {
+        if((x % 2 ==0) && ( y% 2==0)){
+            System.out.println(true);
+        } else
+            System.out.println(false);
+		return false;
+	}
+	public static void main(String[] args) {
+		Assignment112 obj=new Assignment112();
+		obj.compareEvenOdd(4, 6);
+		obj.compareEvenOdd(3, 4);
+		obj.compareEvenOdd(-1, 1);
+
+
+		
+	}
 }

@@ -7,6 +7,26 @@ public class Assignment103 {
 	    String breed; 
 	    String color;
 	    
+	    object3.bark();
+        object3.run();
+        object3.play();
+        
+        object2.bark();
+        object2.run();
+        object2.play();
+        
+	    void bark() {
+	        System.out.println(breed+" can bark");
+	    }
+	    
+	    void run() {
+	        System.out.println(breed+" can run");
+	    }
+	    
+	    void play() {
+	        System.out.println(breed+" can play");
+	    }
+	    
 	    public static void main(String[] args){
 	     
 	       
@@ -19,34 +39,17 @@ public class Assignment103 {
 	        object2.color = "Brown";
 	        object2.name = "Maxi";
 	       
-	        object2.bark();
-	        object2.run();
-	        object2.play();
+	        
 	        
 	        Object object3 = new Object();
 	        object3.breed = "Labrador";
 	        object3.color = "Black";
 	        object3.name = "Charlie";
 	       
-	        object3.bark();
-	        object3.run();
-	        object3.play();
+	        
 	        
 	    }
-	    
-	    void bark() {
-	        System.out.println(breed+" can bark");
-	    }
-	    
-	    void run() {
-	        System.out.println(breed+" can run");
-	    }
-	    
-	    void play() {
-	        System.out.println(breed+" can play");
-	    }
-	        
-	    }
+ }
 
 
 

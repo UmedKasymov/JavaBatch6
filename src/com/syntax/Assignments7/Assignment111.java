@@ -10,12 +10,11 @@ public class Assignment111 {
 		Expected Output:
 		TEST
 	 */
-	void name(String str) {
-		System.out.println("");
-  }
+	
 	public static void main(String[] args) {
-		// 
-		Assignment110 str=new Assignment110();
-		str
- }
-}
+	
+		String text=new String();
+		text="test";
+		System.out.println(text.toUpperCase());
+	 }
+	}
