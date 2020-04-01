@@ -13,26 +13,14 @@ Expected Output:
 I am a student of batch 6 studying at Syntax in the year of 2020
  * 
  */
-		   private String schoolName;
-		   private int year;
-		   private String batch;
-		   
-		   public String getName() {
-		      return schoolName;
-		   }
-		   public void setScool(String schoolName) {
-		      this.schoolName = schoolName;
-		   public int getYear() {
-		      return year;
-		   }
-		   public void setBatch(int score) {
-		      this.year = year;
-		   }
-		   public String getBatch() {
-			      return batch;
-			   }
-			   public void batchNum(String batch) {
-			      this.batch = batch;
+		 static String schoolName="Syntax";
+		 static int year=2020;
+		 static int batchNum=6;
+		
+	public static void main(String[] args) {
+	 System.out.println("I am a student of batch "+batchNum+" studying at "
+			   +schoolName+" in the year of "+year);
+			   
 		}
 
 }

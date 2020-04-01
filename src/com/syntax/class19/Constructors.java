@@ -6,7 +6,8 @@ public class Constructors {//from Bottom to Top for a print out:
 	//: do step into when you write  a line of code yourself
 	
 	Constructors(){
-		this(1);
+		this(1);//ALWAYS has to be in Line#1
+		//this(1,2);CE: this is located on line 2
 		System.out.println("Hi");
 	}
 	Constructors(int x){
@@ -18,7 +19,7 @@ public class Constructors {//from Bottom to Top for a print out:
 	}
 	
 	public static void main(String[] args) {
-		Constructors obj=new Constructors(1,2);
+		Constructors obj=new Constructors(1);
 		
 	}
 }
