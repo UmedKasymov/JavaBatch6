@@ -12,7 +12,7 @@ public class JavaTeacher extends Teacher {
 	String certifications;
 	
 	JavaTeacher(String name, String lastName, String certification){
-		super(name, lastName);
+		super(name, lastName);//SUPER-->always should be in first line inside your constructor!
 		this.certifications=certification;
 	}
 	
