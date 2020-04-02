@@ -21,6 +21,6 @@ public class Polidrome {
 		   	  }
 	}
 	public static void main(String[] args) {
-		text.palindrome("abba");
+		s1.palindrome("abba");
 	}
 }

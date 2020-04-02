@@ -1,7 +1,7 @@
 package com.syntax.Assignments7;
 
 public class Assignment103 {
-
+/*
 		 
 	    String name; 
 	    String breed; 
@@ -50,6 +50,6 @@ public class Assignment103 {
 	        
 	    }
  }
-
-
+*/
+}
 
