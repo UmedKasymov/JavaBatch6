@@ -24,7 +24,10 @@ public class Student {
 		public void getJob() {
 	System.out.println("Syntax students become QA automation engineer");
 	}
+		public void accessParentOverridenMethod() {
+	    super.study();
 	}
+}
 	class CollegeStudent extends Student{
 	@Override
 		public void study() {
