@@ -1,4 +1,4 @@
-package com.syntax.class25AbstractMore;
+package com.syntax.class25AbstractInterface;
 
 public abstract class Vehicle {
 
