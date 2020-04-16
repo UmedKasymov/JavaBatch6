@@ -1,13 +1,12 @@
 package com.syntax.class25AbstractInterface;
 
-public interface Drivable {
+public interface Drivable {//INTRO TO INTERFACE
 
 	//compiler by default adds public static final
 	boolean MOVE_FAST=true;
 	
 	//compiler by default adds public abstract
 	void drive();
-	
 }
 
 abstract class Vehicles{
@@ -21,12 +20,10 @@ class Cars extends Vehicles implements Drivable{
 	@Override
 	public void drive() {
 	   System.out.println("Car drives");
-		
 	}
 
 	@Override
 	void stop() {
 		System.out.println("Car stops");
-		
 	}
 }
