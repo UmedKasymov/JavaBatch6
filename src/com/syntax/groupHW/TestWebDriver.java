@@ -3,10 +3,10 @@ package com.syntax.groupHW;
 public class TestWebDriver {
 
 	public static void main(String[] args) {
-		RemoteWebDriver chrome=new ChromeDriver();
-		RemoteWebDriver firefox=new FirefoxDriver();
-		RemoteWebDriver safari=new SafariDriver();
-		RemoteWebDriver[] array={chrome,firefox,safari};
+		RemoteWebDriver1 chrome=new ChromeDriver();
+		RemoteWebDriver1 firefox=new FirefoxDriver();
+		RemoteWebDriver1 safari=new SafariDriver();
+		RemoteWebDriver1[] array={chrome,firefox,safari};
 		for(int i=0;i<array.length;i++) {
 			array[i].open();
 			String str=array[i].getTitle();
@@ -18,7 +18,7 @@ public class TestWebDriver {
 		}
 	}
 }
-class ChromeDriver implements RemoteWebDriver{
+class ChromeDriver implements RemoteWebDriver1{
 	@Override
 	public void open() {
 		System.out.println("Chrome Broswer opens");
@@ -41,7 +41,7 @@ class ChromeDriver implements RemoteWebDriver{
 		System.out.println("Navigating web page");
 	}
 }
-class FirefoxDriver implements RemoteWebDriver{
+class FirefoxDriver implements RemoteWebDriver1{
 	@Override
 	public void open() {
 		System.out.println("Firefox Broswer opens");
@@ -64,7 +64,7 @@ class FirefoxDriver implements RemoteWebDriver{
 		System.out.println("Navigating web page");
 	}
 }
-class SafariDriver implements RemoteWebDriver{
+class SafariDriver implements RemoteWebDriver1{
 	@Override
 	public void open() {
 		System.out.println("Safari Broswer opens");
